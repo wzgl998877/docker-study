@@ -16,6 +16,6 @@ public class TestController {
 
     @RequestMapping("/workflow")
     public String workflow() {
-        return "hello workflow";
+        return "hello workflow!";
     }
 }
