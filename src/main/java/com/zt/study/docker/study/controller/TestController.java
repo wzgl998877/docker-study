@@ -13,4 +13,9 @@ public class TestController {
     public String helloWorld() {
         return "hello world";
     }
+
+    @RequestMapping("/workflow")
+    public String workflow() {
+        return "hello workflow";
+    }
 }
